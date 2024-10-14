@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10%;
+    margin: 0;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 5%;
+}
+
+img {
+    width: 50%;
+}
+
+.name_photo {
+    display: flex;
+}
+
+.headshot {
+    width: 5%;
+    padding-left: 5%;
+}
