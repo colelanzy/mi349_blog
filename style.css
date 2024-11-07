@@ -1,18 +1,22 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: helvetica, arial;
+    background-color: #ddddd6;
+    color: #333333;
 }
 
 nav {
     background-color: #333333;
     padding: 10px;
     text-align: center;
+    position: sticky;
+    top: 0px;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #eeeee6;
     padding: 10px 10%;
     margin: 0;
 }
@@ -35,9 +39,69 @@ img {
 
 .name_photo {
     display: flex;
+    flex-direction: row;
 }
 
 .headshot {
     width: 5%;
     padding-left: 5%;
+}
+
+form {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.right_form {
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left_form {
+    display: flex;
+    flex-direction: column;
+}
+
+#message {
+    width: 300px;
+    height: 100px;
+}
+
+input[type="text"] {
+    text-transform: capitalize;
+}
+
+table {
+    text-align: left;
+}
+
+td {
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+th {
+    padding-right: 10px;
+}
+
+label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+textarea {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    height: 20px;
+    margin-top: 10px;
+}
+
+#email_home {
+    height: 15px;
+    margin-top: 10px;
 }

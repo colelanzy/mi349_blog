@@ -21,18 +21,29 @@
 
     <main>
         <form>
-            <label>Name:</label>
-            <input type="text"><br><br>
-            <label>Email:</label>
-            <input type="email"><br><br>
-            <label>Reason for Contact:</label>
-            <select>
-                <option>Saying hi</option>
-                <option>Looking for a contractor</option>
-                <option>Interested in an interview</option>
-            </select><br><br>
-            <textarea></textarea><br><br>
-            <input type="submit" value="submit">
+            <div class="left_form">
+
+                <label>Name:</label>
+                <input type="text">
+
+                <label>Email:</label>
+                <input type="email">
+
+                <label>Reason for Contact:</label>
+                <select>
+                    <option>Saying hi</option>
+                    <option>Looking for a contractor</option>
+                    <option>Interested in an interview</option>
+                </select>
+
+            </div>
+
+            <div class="right_form">
+
+                <textarea id="message"></textarea>
+                <input type="submit" value="submit">
+
+            </div>
         </form>
     </main>
 </body>
